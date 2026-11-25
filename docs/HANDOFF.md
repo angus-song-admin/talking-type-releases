@@ -33,7 +33,7 @@
 
 - **時間**：2026-11-25 17:45（Asia/Taipei）
 - **AI**：Grok Bot
-- **分支／commit**：`docs/handoff-protocol`（SHA 於 commit 後填入）
+- **分支／commit**：`docs/handoff-protocol` `b46788b`
 - **變更**：新增所有 AI 共用的交接協議與入口。新增或修改的路徑：
   - 新增 `docs/HANDOFF.md`、`AGENTS.md`、`CLAUDE.md`、`GEMINI.md`、`docs/handoff/archive/README.md`
 - **目前狀態**：協議已寫在本分支，尚未合併。未跑 `review_cli.mjs`。未發布。
