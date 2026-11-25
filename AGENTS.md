@@ -10,6 +10,8 @@
 
 滿 5 筆為一輪：把這 5 筆摺進本檔檔首「目前狀態」摘要，把原文移到 `docs/handoff/archive/HANDOFF-H00x-H00y.md`，讓本檔保持精簡。不要刪歷史。
 
+任何待辦、checklist 或任務清單：完成一項且已寫好對應的 H-xxx 交接紀錄後，直接刪掉該項，不要打勾留著。清單空了就刪除整個檔案與所有指向它的一行，並在 `docs/HANDOFF.md` 記一筆。
+
 本協議不取代既有流水線。規格、測試、`verify.sh`、`review_cli.mjs`、merge 與發布規則仍以 `~/Deving/agent-governance/docs/DIVISION_OF_LABOR.md` 為準。
 
 ## 本 repo 特別的地方

@@ -10,6 +10,8 @@
 
 滿 5 筆為一輪：把這 5 筆摺進本檔檔首「目前狀態」摘要，把原文移到 `docs/handoff/archive/HANDOFF-H00x-H00y.md`，讓本檔保持精簡。不要刪歷史。
 
+任何待辦、checklist 或任務清單：完成一項且已寫好對應的 H-xxx 交接紀錄後，直接刪掉該項，不要打勾留著。清單空了就刪除整個檔案與所有指向它的一行，並在 `docs/HANDOFF.md` 記一筆。
+
 本協議不取代既有流水線。規格、測試、`verify.sh`、`review_cli.mjs`、merge 與發布規則仍以 `~/Deving/agent-governance/docs/DIVISION_OF_LABOR.md` 為準。
 
 ## 目前狀態
@@ -39,3 +41,13 @@
 - **目前狀態**：協議已寫在本分支，尚未合併。未跑 `review_cli.mjs`。未發布。
 - **下一步**：經 Angus 同意後審查、合併本 PR。後續任何更動繼續追加 H-003 起。
 - **卡住／需 Angus 核准**：合併本分支、發布（若適用）都要 Angus 同意。
+
+### H-003
+
+- **時間**：2026-11-25 18:10（Asia/Taipei）
+- **AI**：Grok Bot
+- **分支／commit**：`docs/handoff-protocol`（本筆即此 commit）
+- **變更**：在交接協議（`AGENTS.md` 與 `docs/HANDOFF.md`）加上常設規則：任何待辦、checklist 或任務清單，完成一項且已寫好對應的 H-xxx 後，直接刪掉該項，不要打勾留著；清單空了就刪除整個檔案與所有指向它的一行，並在 `docs/HANDOFF.md` 記一筆。
+- **目前狀態**：規則已寫在本分支，尚未合併。未部署。
+- **下一步**：經 Angus 同意後審查、合併本 PR。
+- **卡住／需 Angus 核准**：合併本分支須 Angus 同意。
